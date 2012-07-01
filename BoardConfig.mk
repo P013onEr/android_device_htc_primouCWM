@@ -30,7 +30,7 @@ BOARD_HAS_NO_MISC_PARTITION := false
 
 BOARD_HAS_LARGE_FILESYSTEM := true
 
-# UMS CRAP
+# Actual UMS different from TWRP for some reason
 
 BOARD_UMS_LUNFILE := /sys/class/android_usb/f_mass_storage/lun0/file
 
