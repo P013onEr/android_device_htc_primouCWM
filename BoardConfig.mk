@@ -21,7 +21,7 @@ BOARD_FLASH_BLOCK_SIZE := 1310722
 
 TARGET_PREBUILT_KERNEL := device/htc/primou/kernel
 
-#This is needed so CWM will function properly
+# This is needed so CWM will function properly
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
@@ -30,7 +30,7 @@ BOARD_HAS_NO_MISC_PARTITION := false
 
 BOARD_HAS_LARGE_FILESYSTEM := true
 
-#UMS CRAP
+# UMS CRAP
 
 BOARD_UMS_LUNFILE := /sys/class/android_usb/f_mass_storage/lun0/file
 
