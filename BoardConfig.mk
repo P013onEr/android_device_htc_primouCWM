@@ -21,10 +21,10 @@ BOARD_FLASH_BLOCK_SIZE := 1310722
 
 TARGET_PREBUILT_KERNEL := device/htc/primou/kernel
 
+#This is needed so CWM will function properly
+
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
-BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1
-BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 BOARD_USES_MMCUTILS := false
 BOARD_HAS_NO_MISC_PARTITION := false
 
