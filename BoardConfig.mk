@@ -25,6 +25,7 @@ TARGET_PREBUILT_KERNEL := device/htc/primou/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
+BOARD_SDEXT_DEVICE := /dev/block/mmcblk0p32
 BOARD_USES_MMCUTILS := false
 BOARD_HAS_NO_MISC_PARTITION := false
 
@@ -33,6 +34,11 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # Actual UMS different from TWRP for some reason
 
 BOARD_UMS_LUNFILE := /sys/class/android_usb/f_mass_storage/lun0/file
+
+#Lun File testing
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_otg/msm_hsusb/gadget/lun1/file
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_otg/msm_hsusb/gadget/lun2/file
+
 
 # Script
 
