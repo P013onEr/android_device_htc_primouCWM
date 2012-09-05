@@ -9,3 +9,4 @@
 /misc		emmc		/dev/block/mmcblk0p17
 /devlog         ext4            /dev/block/mmcblk0p29
 /sd-ext         vfat            /dev/block/mmcblk1
+/emmc           vfat            /dev/block/mmcblk0p32
